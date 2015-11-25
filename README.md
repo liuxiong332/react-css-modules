@@ -236,7 +236,7 @@ class extends React.Component {
             return <li styleName='foo'>{name}</li>;
         };
 
-        return <List itemTemplate={name} />;
+        return <List itemTemplate={itemTemplate} />;
     }
 }
 ```
@@ -252,7 +252,7 @@ class extends React.Component {
             return <li styleName={this.props.styles.foo}>{name}</li>;
         };
 
-        return <List itemTemplate={name} />;
+        return <List itemTemplate={itemTemplate} />;
     }
 }
 ```
